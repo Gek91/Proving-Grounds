@@ -46,4 +46,16 @@ class Test1013 {
 
         Assert.assertTrue(output);
     }
+
+    @Test
+    fun testCanThreePartsEqualSum5() {
+
+        val input : IntArray = intArrayOf(1,-1,1,-1);
+
+        val output : Boolean = canThreePartsEqualSum(input);
+
+        Assert.assertFalse(output);
+    }
+
+
 }
