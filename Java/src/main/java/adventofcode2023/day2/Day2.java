@@ -8,6 +8,7 @@ import java.util.List;
 
 
 /*
+	https://adventofcode.com/2023/day/2
 	on each line of the input is described a game. Every game is composed by sets (delimited by ;).
 	Every set has values with colors that can be red, blue and green (delimited by ,)
 	Only the games in witch every set has the values corresponding at each color less than the check set is valid
